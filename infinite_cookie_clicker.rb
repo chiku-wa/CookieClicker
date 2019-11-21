@@ -10,6 +10,7 @@ driver.get target_url
 # クリックしたいクッキーの要素を取得
 click_cookie = driver.find_element(:id, "cookieAnchor")
 
+# クッキーがクリックできるようになるまで待つ
 sleep 2
 
 # クッキーをクリックする
